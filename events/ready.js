@@ -29,16 +29,10 @@ module.exports = async (client) => {
         }
     })();
 
-    const activityType = ActivityType[config.activityType.charAt(0).toUpperCase() + config.activityType.slice(1).toLowerCase()];
-    if (!activityType) {
-        console.error(`Invalid activity type: ${config.activityType}`);
-        return;
-    }
-    
-    setInterval(() => client.user.setActivity({ 
-        name: config.activityName, 
-        type: activityType 
-    }), 10000);
+const status = await client.user.setActivity({
+        type: ActivityType.Custom,
+        name: "人の一生は朝霧のように一瞬で、運命は虚無に忘れ去られるように定められている"
+    });
 
     client.errorLog = config.errorLog;
 };
