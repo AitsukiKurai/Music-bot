@@ -100,7 +100,7 @@ async function play(client, interaction, lang) {
                 url: config.SupportServer
             })
             .setDescription(lang.play.embed.successProcessed)
-            .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon });
+            .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
 
         await interaction.followUp({ embeds: [randomEmbed] });
 
