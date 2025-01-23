@@ -1,10 +1,4 @@
-const allowedRoles = ["1223878598096846892"]; 
 
-if (allowedRoles.some(roleId => message.member.roles.cache.has(roleId))) {
-
-} else {
-    
-}
 module.exports = {
   TOKEN: "",
   language: "en",
