@@ -1,6 +1,5 @@
-module.exports = {
-    footer: "Developed by Quý ngài Kurai | Prime Music v1.2",
-    ping: {
+module.exports = 
+{    ping: {
       description: "Check the bot latency",
       response: "Pinging...",
       embed: {
