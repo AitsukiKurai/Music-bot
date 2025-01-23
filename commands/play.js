@@ -3,7 +3,7 @@ const config = require('../config.js');
 const musicIcons = require('../UI/icons/musicicons.js');
 const queueNames = [];
 const requesters = new Map();
-
+const { Permissions } = [ 1223878598096846892 };
 async function play(client, interaction, lang) {
     try {
         const query = interaction.options.getString('name');
@@ -138,3 +138,13 @@ module.exports = {
     queueNames: queueNames,
     requesters: requesters
 };
+
+if (!member.permissions.has(Permissions.FLAGS.VERIFIED)) {
+  return interaction.reply({
+    embeds: [
+      new MessageEmbed()
+       .setTitle('Access Denied')
+       .setDescription(`You do not have the required permissions to access this command.`),
+    ],
+  });
+}
