@@ -1,5 +1,6 @@
-module.exports = 
-{    ping: {
+module.exports = {
+    footer: "Developed by kurai | Prime Music v1.2",
+    ping: {
       description: "Check the bot latency",
       response: "Pinging...",
       embed: {
@@ -7,6 +8,7 @@ module.exports =
         responseTime: "- Bot Response Time : **{latency}ms**",
         websocketPing: "- WebSocket Ping : **{ping}ms**",
         uptime: "- Uptime : **{uptime}**",
+        footer: "Developed by kurai | Prime Music v1.2"
       }
     },
     addsong: {
@@ -184,7 +186,6 @@ module.exports =
         noMoreSongs: "- No more songs in the queue.",
         error: "Error",
         errorDescription: "- An error occurred while retrieving the queue."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   remove: {
@@ -197,7 +198,6 @@ module.exports =
         songRemovedDescription: "- Removed song: **{songTitle}** from the queue.",
         error: "Error",
         errorDescription: "- An error occurred while removing the song from the queue."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   resume: {
