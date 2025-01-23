@@ -1,4 +1,5 @@
 module.exports = {
+    footer: "Developed by SSRR | Prime Music v1.2",
     ping: {
       description: "Check the bot latency",
       response: "Pinging...",
@@ -7,6 +8,7 @@ module.exports = {
         responseTime: "- Bot Response Time : **{latency}ms**",
         websocketPing: "- WebSocket Ping : **{ping}ms**",
         uptime: "- Uptime : **{uptime}**",
+        footer: "Developed by SSRR | Prime Music v1.2"
       }
     },
     addsong: {
