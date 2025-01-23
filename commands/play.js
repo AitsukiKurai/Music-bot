@@ -4,7 +4,7 @@ const musicIcons = require('../UI/icons/musicicons.js');
 const queueNames = [];
 const requesters = new Map();
 
-async function play(client, interaction, lang) {
+async function play(client, interaction) {
     try {
         const query = interaction.options.getString('name');
 
@@ -16,7 +16,6 @@ async function play(client, interaction, lang) {
                     iconURL: musicIcons.alertIcon,
                     url: config.SupportServer
                 })
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.play.embed.noVoiceChannel);
 
             await interaction.reply({ embeds: [embed], ephemeral: true });
@@ -31,7 +30,6 @@ async function play(client, interaction, lang) {
                     iconURL: musicIcons.alertIcon,
                     url: config.SupportServer
                 })
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.play.embed.noLavalinkNodes);
 
             await interaction.reply({ embeds: [embed], ephemeral: true });
@@ -85,7 +83,6 @@ async function play(client, interaction, lang) {
                     iconURL: musicIcons.alertIcon,
                     url: config.SupportServer
                 })
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.play.embed.noResults);
 
             await interaction.editReply({ embeds: [errorEmbed] });
@@ -100,7 +97,6 @@ async function play(client, interaction, lang) {
                 url: config.SupportServer
             })
             .setDescription(lang.play.embed.successProcessed)
-            .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
 
         await interaction.followUp({ embeds: [randomEmbed] });
 
@@ -113,7 +109,6 @@ async function play(client, interaction, lang) {
                 iconURL: musicIcons.alertIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
             .setDescription(lang.play.embed.errorProcessing);
 
         if (interaction.deferred || interaction.replied) {
