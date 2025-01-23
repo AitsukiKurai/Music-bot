@@ -41,7 +41,6 @@ module.exports =
         disabled: "disabled",
         error: "Error",
         errorDescription: "- An error occurred while updating autoplay."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescription: "Enable or disable autoplay"
   },
