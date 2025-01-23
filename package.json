@@ -16,7 +16,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "SSRR",
+  "author": "A",
   "license": "XX",
   "engines": {
     "node": "20.x"
