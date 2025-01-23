@@ -8,7 +8,6 @@ module.exports = {
         responseTime: "- Bot Response Time : **{latency}ms**",
         websocketPing: "- WebSocket Ping : **{ping}ms**",
         uptime: "- Uptime : **{uptime}**",
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
       }
     },
     addsong: {
@@ -21,7 +20,6 @@ module.exports = {
           songAddedDescription: "- Song **{songInput}** has been added to playlist **{playlistName}**.",
           error: "Error",
           errorDescription: "- An error occurred while adding the song."
-          footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
       }
   },
   allplaylists: {
@@ -34,7 +32,6 @@ module.exports = {
         publicPlaylistsTitle: "Public Playlists (Page {currentPage}/{totalPages})",
         error: "Error",
         errorDescription: "- An error occurred while fetching the playlists."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   autoplay: {
@@ -59,7 +56,6 @@ module.exports = {
         public: "Public",
         error: "Error",
         errorDescription: "- An error occurred while creating the playlist."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescriptionName: "Enter playlist name",
     commandDescriptionPrivate: "Set playlist as private (visible only to you)"
@@ -74,7 +70,6 @@ module.exports = {
         playlistDeletedDescription: "- Playlist **{playlistName}** has been deleted.",
         error: "Error",
         errorDescription: "- An error occurred while deleting the playlist."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescriptionName: "Enter playlist name"
   },
@@ -86,7 +81,6 @@ module.exports = {
         songDeletedDescription: "- Song **{songName}** has been deleted from playlist **{playlistName}**.",
         error: "Error",
         errorDescription: "- An error occurred while deleting the song."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescriptionPlaylist: "Enter playlist name",
     commandDescriptionSong: "Enter song name"
@@ -100,7 +94,6 @@ module.exports = {
         invalidFilter: "Invalid filter selected.",
         filterApplied: "Filter **{filter}** has been applied.",
         errorProcessing: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescription: "Select a filter to apply"
   },
@@ -124,7 +117,6 @@ module.exports = {
         noDescription: "No description available.",
         noCommands: "No commands found.",
         error: "❌ An error occurred while fetching the help menu."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescription: "Get information about the bot"
   },
@@ -140,7 +132,6 @@ module.exports = {
         songs: "Songs",
         error: "Error",
         errorDescription: "- An error occurred while fetching your playlists."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   nowPlaying: {
@@ -149,7 +140,6 @@ module.exports = {
         noSong: "- There is no song currently playing.",
         nowPlaying: "Now Playing!",
         errorDescription: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   pause: {
@@ -159,7 +149,6 @@ module.exports = {
         paused: "Paused!",
         pausedDescription: "**- Playback has been paused!**",
         errorDescription: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   play: {
@@ -171,7 +160,6 @@ module.exports = {
         requestUpdated: "Request Updated!",
         successProcessed: "- Your request has been successfully processed.\n- Please use buttons to control playback",
         errorProcessing: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescription: "Enter song name / link or playlist"
   },
@@ -187,7 +175,6 @@ module.exports = {
         playlistPlaying: "- Playlist **{playlistName}** is now playing.\n- Please use buttons to control playback",
         errorResolvingSong: "- Error resolving song.",
         errorPlayingPlaylist: "- An error occurred while playing the playlist."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     commandDescription: "Enter playlist name"
   },
@@ -223,7 +210,6 @@ module.exports = {
         resumedDescription: "**- Playback has been resumed!**",
         error: "Error",
         errorDescription: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   showsongs: {
@@ -236,7 +222,6 @@ module.exports = {
         songsInPlaylist: "Songs in {playlistName}",
         songsInPlaylistPage: "Songs in {playlistName} (Page {currentPage}/{totalPages})",
         errorDescription: "- An error occurred while showing the songs."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   shuffle: {
@@ -247,7 +232,6 @@ module.exports = {
         queueShuffledDescription: "- The queue has been shuffled successfully.",
         error: "Error",
         errorDescription: "- An error occurred while shuffling the queue."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   skip: {
@@ -258,7 +242,6 @@ module.exports = {
         songSkippedDescription: "**- Player will play the next song!**",
         error: "Error",
         errorDescription: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   stop: {
@@ -269,7 +252,6 @@ module.exports = {
         musicHaltedDescription: "**- Playback has been stopped and player destroyed!**",
         error: "Error",
         errorDescription: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   support: {
@@ -278,7 +260,6 @@ module.exports = {
         description: "➡️ **Join our Discord server for support and updates:**\n- Discord - {supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - {githubLink}\n- Replit - {replitLink}\n- YouTube - {youtubeLink}",
         error: "Error",
         errorDescription: "- An error occurred while processing your request."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     }
   },
   volume: {
@@ -289,7 +270,6 @@ module.exports = {
         volumeUpdatedDescription: "- Volume has been set to **{volume}%**",
         error: "Error",
         errorDescription: "An error occurred while setting the volume."
-        footer: "Developed by Quý ngài Kurai | Prime Music v1.2"
     },
     volumeRangeError: "Volume level must be between 0 and 100."
   },
