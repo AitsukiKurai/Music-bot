@@ -26,11 +26,11 @@ module.exports = {
       secure: false
     },
     {
-      name: "Catfein ID",
-      password: "NAIGLAVA-dash.techbyte.host",
-      host: "lavahatry4.techbyte.host",
-      port: 3000,
-      secure: false
+      name: "Node 3",
+      password: "d.gg/therepublic",
+      host: "ll3.myhm.space",
+      port: 443,
+      secure: true
     },
     { 
       name: "saher",
