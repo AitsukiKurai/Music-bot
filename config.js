@@ -27,8 +27,8 @@ module.exports = {
     },
     {
       name: "Node 3",
-      password: "d.gg/therepublic",
-      host: "ll3.myhm.space",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lava-v4.ajieblogs.eu.org",
       port: 443,
       secure: true
     },
