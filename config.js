@@ -35,3 +35,12 @@ module.exports = {
     }
   ]
 }
+    { 
+      name: "Public",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lava-v4.ajieblogs.eu.org",
+      port: 80,
+      secure: false
+    }
+  ]
+}
