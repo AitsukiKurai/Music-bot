@@ -12,16 +12,16 @@ module.exports = {
   errorLog: "", 
   nodes: [
      {
-      name: "Koi Node V4";
-      password: "prplmoe.me";
-      host: "lavav4.prplmoe.me";
-      port: 1118;
-      secure: false
+      "name": "Koi Node V4";
+      "password": "prplmoe.me";
+      "host": "lavav4.prplmoe.me";
+      "port": 1118;
+      "secure": false
     },
     {
-      name: "saher"
-      password: "saher.inzeworld.com";
-      host: "lava.inzeworld.com";
-      port: 3128;
-      secure: false
-}
+      "name": "Muzykant v4",
+      "password": "https://discord.gg/v6sdrD9kPh",
+      "host": "lavalink_v4.muzykant.xyz",
+      "port": 80,
+      "secure": false
+    }
