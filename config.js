@@ -1,17 +1,18 @@
 
+
 module.exports = {
   TOKEN: "",
   language: "en",
-  ownerID: ["1041299168465002556"], 
+  ownerID: ["1004206704994566164", ""], 
   mongodbUri : "",
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
-  SupportServer: "https://discord.gg/KnM68924bP",
+  SupportServer: "https://discord.gg/xQF9f9yUEM",
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
-    {
+     {
       name: "Koi Node V4",
       password: "prplmoe.me",
       host: "lavav4.prplmoe.me",
@@ -19,27 +20,10 @@ module.exports = {
       secure: false
     },
     {
-      name: "INZEWORLD.COM (DE)",
-      password: "saher.inzeworld.com",
-      host: "lava.inzeworld.com",
-      port: 3128,
-      secure: false
-    },
-    {
-    { 
-      name: "saher",
-      password: "saher.inzeworld.com",
-      host: "lava.inzeworld.com",
-      port: 3128,
-      secure: false
-    }
-  ]
-}
-    { 
-      name: "Public",
-      password: "https://dsc.gg/ajidevserver",
-      host: "lava-v4.ajieblogs.eu.org",
-      port: 80,
+      name: "ChalresNaig Node",
+      password: "NAIGLAVA-dash.techbyte.host",
+      host: "lavahatry4.techbyte.host",
+      port: 3000,
       secure: false
     }
   ]
